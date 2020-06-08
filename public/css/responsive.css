@@ -1,0 +1,264 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    header .menu>ul>li {
+	    margin-left: 10px;
+    }
+    .main .banner .content {
+    	padding: 10px;
+    	padding-left: 40px;
+    	margin-top: 0;
+    }
+    .blog .new-blog .content{
+    	height: 280px;
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img{
+    	height: 400px;
+    }
+
+}
+
+@media (max-width: 991px) {
+   .menu-page__list {
+        position: fixed;
+        top: 64px;
+        z-index: 1;
+        padding: 0;
+        width: 100%
+   }
+
+   .list-category {
+        display: -webkit-inline-box;
+        overflow-y: auto;
+        width: 100%
+   }
+
+    .list-category li { 
+        margin-right: 15px;
+
+    }
+
+    .menu-page .list-product {
+        border-left: 0;
+    }
+
+   
+}
+
+
+@media (min-width: 769px) and (max-width: 1200px) {
+
+    header .menu>.list-menu{
+    	display: none;
+
+    }
+    header .menu>.menu-cart{
+        display: block;
+
+    }
+   
+
+    header .menu .cart{
+        margin-left: 0;
+        margin-top: 5px;
+
+    }
+
+    header .menu ul{
+       padding-left: 0;        
+    }
+
+    header .menu .logo{
+      margin: 0 auto;   
+    }
+    
+    header .menu-btn{
+        display: block;
+    }
+    
+    .main .banner .content {
+    	padding: 10px;
+    	padding-left: 40px;
+    	margin-top: 0;
+    }
+    .product .buy .buy-now {
+    	margin-bottom: 20px;
+    }
+    .blog .new-blog {
+    	width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    header .menu>.list-menu{
+        display: none;
+
+    }
+
+     header .menu>.menu-cart{
+        display: block;
+
+    }
+
+     header .menu .cart{
+        margin-left: 0;
+        margin-top: 5px;
+
+    }
+
+    header .menu ul{
+       padding-left: 0;        
+    }
+
+    header .menu .logo{
+      margin: 0 auto;   
+    }
+
+    header .menu-btn{
+        display: block;
+    }
+
+    .main .banner .content {
+    	padding: 10px;
+    	padding-left: 40px;
+    	margin-top: 0;
+    }
+
+    .product .buy .buy-now {
+    	margin-bottom: 20px;
+    }
+
+    .blog .new-blog {
+    	width: 50%;
+    }
+	
+
+    .list-product {
+        margin-top: 20px
+    }
+
+    .form-center, .mobile-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobile-center {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile .avatar {
+        text-align: center;
+    }
+
+    .profile .link-profile  {
+        margin-left: 40px;
+    }
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    .btn-status {
+        font-size: 10px;
+        padding: 4px 5px
+    }
+
+    .input-update {
+        height: 30px !important;
+    }
+
+    .table-cart {
+        font-size: 14px !important;
+    }
+
+    .m-m-t-30 {
+        margin-top: 30px
+    }
+
+    .btn-status {
+        width: 60px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .blog .new-blog .content{
+    	height: 300px;
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img{
+    	height: 250px;
+    }
+
+    .login-form{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+	
+}
+@media only screen and (max-width: 575px) {	
+	.blog .new-blog .content{
+    	height: 300px;
+    }
+
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img{
+    	height: 250px;
+    }
+
+    .login-form{
+        
+        margin-top: 40px;
+    }
+
+    .list-news .title-news {
+        opacity: 1;
+    }
+
+    .input-update {
+        width: 50px;
+        height: 20px !important;
+    } 
+
+    .btn-status {
+        margin-left: 0 !important;
+    }
+
+    .list-product .product .info h3 a {
+        height: 52px;
+
+    }
+}
+
+@media screen and (max-width: 574px) {
+	
+	.blog .new-blog {
+    	width: 100%;
+    }
+    .product{
+    	width: 50%;
+    }
+    .buy .view{
+        display: none;
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img{
+    	height: 200px;
+    }
+    .login-form{
+        
+        margin-top: 40px;
+    }
+    .login-form input {
+        
+        width: 300px;
+        
+    }
+    .login-form button {
+        
+        width: 300px;
+        
+    }
+
+}
